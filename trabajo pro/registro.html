@@ -1,0 +1,109 @@
+﻿ <!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>CINETRON</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="css/menu.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" >
+    <link href='htpp://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css' >
+    <link rel="stylesheet" href="css/estilos.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <header>
+    <div class="menu_bar">
+        <a href="#" class="bt-menu"><span class="icon-menu"></span> Menu</a>
+    </div>
+    <nav>
+        <ul>
+
+           <li><a href="index.html"><span class="icon-home"></span> Inicio</a></li>
+            <li class="submenu">
+                <a href="#"><span class="icon-shopping-cart"></span>Peliculas</a>
+            </li>
+            <li class="submenu">
+                <a href="#"><span class="icon-cw"></span>Login</a>
+                <ul class="children">
+               <li><a href="iniciar.html"></span>Iniciar Sesión</a></li>
+           </ul>
+                </li>
+                <li class="submenu">
+                    <a href="#"><span class="icon-cw"></span>Proximamente</a>
+                    <ul class="children">
+                   <li><a href="#"></span>Estacion sombi</a></li>
+               </ul>
+                    </li>
+                    <li class="submenu">
+                        <a href="#"><span class="icon-cw"></span>Reservaciones</a>
+                        <ul class="children">
+                       <li><a href="#"></span>Reservar</a></li>
+                       <li><a href="#"></span>.......</span></a></li>
+                   </ul>
+                        </li>
+                        <li class="submenu">
+                            <a href="#"><span class="icon-cw"></span>Promociones</a>
+                            <ul class="children">
+                           <li><a href="#"></span>Lista de Promociones</a></li>
+                       </ul>
+                            </li>
+                <li><a href="#"><span class="icon-old-phone"></span> Contacto</a></li>
+                 <li class="submenu">
+                     <a href="#"><span class="icon-help-with-circle"></span>Mas...</a>
+                      <ul class="children">
+               <li><a href="#">Extras</a></li>
+           </ul>
+                     </li>
+
+        </ul>
+    </nav>
+  </header>
+   	<div class="contenedor-formulario">
+		<div class="wrap">
+			<form action="" class="formulario" name="formulario_registro" method="get">
+				<div>
+					<div class="input-group">
+						<input type="text" id="nombre" name="nombre">
+						<label class="label" for="nombre">Nombre:</label>
+					</div>
+					<div class="input-group">
+						<input type="email" id="correo" name="correo">
+						<label class="label" for="correo">Correo:</label>
+					</div>
+					<div class="input-group">
+						<input type="password" id="pass" name="pass">
+						<label class="label" for="pass">Contraseña:</label>
+					</div>
+					<div class="input-group">
+						<input type="password" id="pass2" name="pass2">
+						<label class="label" for="pass2">Repetir Contraseña:</label>
+					</div>
+					<div class="input-group radio">
+						<input type="radio" name="sexo" id="hombre" value="Hombre">
+						<label for="hombre">Hombre</label>
+						<input type="radio" name="sexo" id="mujer" value="Mujer">
+						<label for="mujer">Mujer</label>
+					</div>
+					<div class="input-group checkbox">
+						<input type="checkbox" name="terminos" id="terminos" value="true">
+						<label for="terminos">Acepto los Terminos y Condiciones</label>
+					</div>
+
+					<input type="submit" id="btn-submit" value="Enviar">
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<script src="js/formulario.js"></script>
+  <div class="social">
+        <ul>
+            <li><a href="" target="_blank" class="icon-facebook"></a></li>
+            <li><a href="" target="_blank" class="icon-twitter"></a></li>
+            <li><a href="" target="_blank" class="icon-google"></a></li>
+            <li><a href="" target="_blank" class="icon-pinterest"></a></li>
+        </ul>
+    </div>
+</body>

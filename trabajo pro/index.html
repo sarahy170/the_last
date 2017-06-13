@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>CINETRON</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="css/menu.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" >
+    <link href='htpp://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css' >
+</head>
+<body>
+  <header>
+    <div class="menu_bar">
+        <a href="#" class="bt-menu"><span class="icon-menu"></span> Menu</a>
+    </div>
+    <nav>
+        <ul>
+            <li class="submenu">
+                <a href="#"><span class="icon-shopping-cart"></span>Peliculas</a>
+            </li>
+            <li class="submenu">
+                <a href="#"><span class="icon-cw"></span>Login</a>
+                <ul class="children">
+               <li><a href="registro.html"></span>Registrase</a></li>
+               <li><a href="iniciar.html"></span>Iniciar Sesión</a></li>
+           </ul>
+                </li>
+                <li class="submenu">
+                    <a href="#"><span class="icon-cw"></span>Proximamente</a>
+                    <ul class="children">
+                   <li><a href="#"></span>Estacion sombi</a></li>
+               </ul>
+                    </li>
+                    <li class="submenu">
+                        <a href="#"><span class="icon-cw"></span>Reservaciones</a>
+                        <ul class="children">
+                       <li><a href="#"></span>Reservar</a></li>
+                       <li><a href="#"></span>.......</span></a></li>
+                   </ul>
+                        </li>
+                        <li class="submenu">
+                            <a href="#"><span class="icon-cw"></span>Promociones</a>
+                            <ul class="children">
+                           <li><a href="#"></span>Lista de Promociones</a></li>
+                       </ul>
+                            </li>
+                <li><a href="#"><span class="icon-old-phone"></span> Contacto</a></li>
+                 <li class="submenu">
+                     <a href="#"><span class="icon-help-with-circle"></span>Mas...</a>
+                      <ul class="children">
+               <li><a href="#">Extras</a></li>
+           </ul>
+                     </li>
+
+        </ul>
+    </nav>
+  </header>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.slides.js"></script>
+     <div class="main">
+    <div class="slides">
+
+        <img src="img/1.jpg" alt="">
+            <img src="img/2.jpg" alt="">
+            <img src="img/3.jpg" alt="">
+            <img src="img/4.jpg" alt="">
+            <img src="img/5.jpg" alt="">
+            <img src="img/6.jpg" alt="">
+            <img src="img/7.jpg" alt="">
+    </div>
+</div>
+ <div class="social">
+        <ul>
+            <li><a href="" target="_blank" class="icon-facebook"></a></li>
+            <li><a href="" target="_blank" class="icon-twitter"></a></li>
+            <li><a href="" target="_blank" class="icon-google"></a></li>
+            <li><a href="" target="_blank" class="icon-pinterest"></a></li>
+        </ul>
+    </div>
+    <script>
+        $(function () {
+            $(".slides").slidesjs({
+                play: {
+                    active: true,
+                    // [boolean] Generate the play and stop buttons.
+                    // You cannot use your own buttons. Sorry.
+                    effect: "slide",
+                    // [string] Can be either "slide" or "fade".
+                    interval: 3000,
+                    // [number] Time spent on each slide in milliseconds.
+                    auto: true,
+                    // [boolean] Start playing the slideshow on load.
+                    swap: true,
+                    // [boolean] show/hide stop and play buttons
+                    pauseOnHover: false,
+                    // [boolean] pause a playing slideshow on hover
+                    restartDelay: 2500
+                    // [number] restart delay on inactive slideshow
+                }
+            });
+        });
+    </script>
+</body>
